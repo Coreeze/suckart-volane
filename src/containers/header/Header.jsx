@@ -78,7 +78,16 @@ const Header = () => (
             marginTop: "10px",
           }}
         >
-          NFT P*s*y collection
+          P*s*y#1
+        </h1>
+        <h1
+          className="gradient__text"
+          style={{
+            fontFamily: "DrukWideCy",
+            marginTop: "10px",
+          }}
+        >
+          NFT collection
         </h1>
       </div>
       <div className="gpt3__header-content">
@@ -97,7 +106,7 @@ const Header = () => (
         >
           Uncomfortable. Daring. Offensive. A challenging thought exercise. The
           time has come to indulge yourself and rejoice at the lewd Volane x
-          SuckART P*s*y NFT Collection.
+          SuckART P*s*y#1 NFT Collection.
         </p>
 
         {/* <div className="gpt3__header-content__input">

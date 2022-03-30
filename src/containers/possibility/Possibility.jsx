@@ -1,15 +1,22 @@
 import React from "react";
-import possibilityImage from "../../assets/possibility.png";
+// import possibilityImage from "../../assets/possibility.png";
+import studio from "../../assets/studio.jpg";
 import "./possibility.css";
 
 const Possibility = () => (
   <div className="gpt3__possibility section__padding" id="possibility">
-    <div className="gpt3__possibility-image">
-      <img src={possibilityImage} alt="possibility" />
+    <div
+      className="gpt3__possibility-image"
+      style={{ flexDirection: "column" }}
+    >
+      <img src={studio} alt="possibility" style={{ borderRadius: "10px" }} />
+      <p style={{ fontFamily: "AuthenticSans90", color: "#81afdd" }}>
+        Where the magic happens - Volane&apos;s studio
+      </p>
     </div>
     <div className="gpt3__possibility-content">
       <h1 className="gradient__text" style={{ fontFamily: "AuthenticSans90" }}>
-        The possibilities are <br /> beyond your imagination
+        The studio of a <br /> true artist
       </h1>
       <p style={{ fontFamily: "AuthenticSans90" }}>
         Yet bed any for travelling assistance indulgence unpleasing. Not

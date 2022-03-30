@@ -16,6 +16,7 @@ import {
 import { CTA, Brand, Navbar } from "./components";
 
 import "./App.css";
+import AboutVolane from "./components/aboutVolane/aboutVolane";
 
 const App = () => (
   <div className="App">
@@ -23,11 +24,12 @@ const App = () => (
       <Navbar />
       <Header />
     </div>
-    <Main />
+    {/* <Main /> */}
     <Brand />
+    <AboutVolane />
+    <Possibility />
     <WhatGPT3 />
     <Features />
-    <Possibility />
     <CTA />
     {/* <Blog /> */}
     <Footer />
