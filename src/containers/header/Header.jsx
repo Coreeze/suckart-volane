@@ -9,46 +9,26 @@ import ai from "../../assets/ai.png";
 import picture1 from "../../assets/picture1.png";
 import "./header.css";
 
-const styles = {
-  timerDiv: {
-    flexDirection: "column",
-    display: "flex",
-    backgroundColor: "#111d29",
-    width: "150px",
-    margin: "0px 5px",
-    borderRadius: "10px",
-  },
-};
-
 function MyTimer({ expiryTimestamp }) {
   const { seconds, minutes, hours, days } = useTimer({
     expiryTimestamp,
   });
   return (
-    <div
-      style={{
-        textAlign: "center",
-        fontSize: "50px",
-        fontFamily: "DrukWideCy",
-        color: "#81afdd",
-        paddingTop: "30px",
-        display: "flex",
-      }}
-    >
-      <div style={styles.timerDiv}>
+    <div className="timer">
+      <div className="timerDiv">
         <span>{days}</span>
         <span>d</span>
       </div>
 
-      <div style={styles.timerDiv}>
+      <div className="timerDiv">
         <span>{hours}</span>
         <span>h</span>
       </div>
-      <div style={styles.timerDiv}>
+      <div className="timerDiv">
         <span>{minutes}</span>
         <span>m</span>
       </div>
-      <div style={styles.timerDiv}>
+      <div className="timerDiv">
         <span>{seconds}</span>
         <span>s</span>
       </div>
@@ -67,24 +47,23 @@ const Header = () => (
       style={{ padding: "2rem 4rem" }}
     >
       <div className="gpt3__header-image" style={{ flexDirection: "column" }}>
-        <img
-          src={picture1}
-          style={{ borderRadius: "25px", width: "70%", marginTop: "30px" }}
-        />
         <h1
           className="gradient__text"
           style={{
             fontFamily: "DrukWideCy",
-            marginTop: "10px",
+            marginBottom: "10px",
           }}
         >
           P*s*y#1
         </h1>
+        <img src={picture1} style={{ borderRadius: "25px", width: "70%" }} />
+
         <h1
           className="gradient__text"
           style={{
             fontFamily: "DrukWideCy",
             marginTop: "10px",
+            textAlign: "center",
           }}
         >
           NFT collection
@@ -113,7 +92,7 @@ const Header = () => (
         <input type="email" placeholder="Your Email Address" />
       </div> */}
         <button
-          className="gpt3__cta gpt3__cta__hover"
+          className="gpt3__cta gpt3__cta__hover button_mobile"
           style={{
             height: "50px",
             width: "100%",
@@ -121,7 +100,8 @@ const Header = () => (
             color: "white",
             borderRadius: "10px",
             margin: "0px",
-            display: "block",
+            display: "flex",
+            justifyContent: "center",
             padding: "0px",
             marginTop: "30px",
             cursor: "not-allowed",

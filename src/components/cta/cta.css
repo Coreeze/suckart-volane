@@ -62,6 +62,9 @@
 }
 
 @media screen and (max-width: 650px) {
+  .button_mobile {
+    display: none;
+  }
   .gpt3__cta {
     flex-direction: column;
   }

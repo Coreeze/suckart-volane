@@ -42,8 +42,7 @@ const AboutVolane = () => (
     </h1>
     <ReactPlayer
       url={"https://youtu.be/K8Sk-_fEiQo"}
-      width="900px"
-      height="500px"
+      width="auto"
       volume={0}
       style={{ borderRadius: "10px" }}
     />
