@@ -108,7 +108,7 @@ const Header = () => (
           }}
           disabled="disabled"
         >
-          Buy now
+          Launch incoming...
         </button>
         <MyTimer expiryTimestamp={time} />
 

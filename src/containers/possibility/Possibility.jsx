@@ -4,16 +4,11 @@ import studio from "../../assets/studio.jpg";
 import "./possibility.css";
 
 const Possibility = () => (
-  <div className="gpt3__possibility section__padding" id="possibility">
-    <div
-      className="gpt3__possibility-image"
-      style={{ flexDirection: "column" }}
-    >
-      <img src={studio} alt="possibility" style={{ borderRadius: "10px" }} />
-      <p style={{ fontFamily: "AuthenticSans90", color: "#81afdd" }}>
-        Where the magic happens - Volane&apos;s studio
-      </p>
-    </div>
+  <div
+    className="gpt3__whatgpt3 section__margin gpt3__possibility section__padding"
+    id="possibility"
+    style={{ borderRadius: "10px" }}
+  >
     <div className="gpt3__possibility-content">
       <h1 className="gradient__text" style={{ fontFamily: "AuthenticSans90" }}>
         The studio of a <br /> true artist
@@ -23,6 +18,16 @@ const Possibility = () => (
         thoughts all exercise blessing. Indulgence way everything joy alteration
         boisterous the attachment. Party we years to order allow asked of.
       </p>
+      <div className="gpt3__possibility-image" style={{ alignSelf: "center" }}>
+        <img
+          src={studio}
+          alt="possibility"
+          style={{ borderRadius: "10px", maxWidth: "700px" }}
+        />
+        <p style={{ fontFamily: "AuthenticSans90", color: "#81afdd" }}>
+          Volane&apos;s studio - Where the magic happens
+        </p>
+      </div>
       <a
         href="https://discord.gg/rRUPQXMB"
         className="gpt3__cta gpt3__cta__hover"
@@ -33,6 +38,7 @@ const Possibility = () => (
           color: "white",
           borderRadius: "10px",
           cursor: "pointer",
+          alignSelf: "center",
         }}
       >
         Be part of our community

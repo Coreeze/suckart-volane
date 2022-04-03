@@ -2,7 +2,7 @@ import React from "react";
 import "./cta.css";
 
 const CTA = () => (
-  <div className="gpt3__cta">
+  <div className="gpt3__cta" style={{ marginBottom: "50px" }}>
     <div className="gpt3__cta-content">
       <p style={{ fontFamily: "AuthenticSans90" }}>
         Request Early Access to Get Started

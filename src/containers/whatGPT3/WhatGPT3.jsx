@@ -29,6 +29,7 @@ const WhatGPT3 = () => (
           color: "white",
           borderRadius: "10px",
           cursor: "pointer",
+          marginTop: "10px",
         }}
       >
         Become an exclusive member

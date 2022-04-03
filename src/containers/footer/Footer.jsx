@@ -25,6 +25,7 @@ const Footer = () => (
         color: "white",
         borderRadius: "10px",
         cursor: "pointer",
+        marginBottom: "10px",
       }}
     >
       Get in touch now

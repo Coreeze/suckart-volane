@@ -39,6 +39,7 @@ const Features = () => (
           color: "white",
           borderRadius: "10px",
           cursor: "pointer",
+          marginTop: "10px",
         }}
       >
         Get in touch now
