@@ -30,7 +30,7 @@ const Features = () => (
         Are you an artist? Get in contact and take the opportunity!
       </h1>
       <a
-        href="https://discord.gg/rRUPQXMB"
+        href="https://discord.gg/YmnjudEmtr"
         className="gpt3__cta gpt3__cta__hover"
         style={{
           height: "50px",

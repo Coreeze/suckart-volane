@@ -16,7 +16,7 @@ const Footer = () => (
     </div>
 
     <a
-      href="https://discord.gg/rRUPQXMB"
+      href="https://discord.gg/YmnjudEmtr"
       className="gpt3__cta gpt3__cta__hover"
       style={{
         height: "50px",
@@ -44,7 +44,11 @@ const Footer = () => (
           SUCKART
         </div>
         <p>@2022 SuckART. All rights reserved.</p>
-        <div style={{ margin: "15px 0px" }}>
+        <p>contact@suckart.io</p>
+      </div>
+
+      <div className="gpt3__footer-links_div">
+        <div>
           <a href="https://twitter.com/suckartclub">
             <img
               src={twitter}
@@ -60,12 +64,6 @@ const Footer = () => (
             style={{ width: "40px", height: "40px", borderRadius: "50px" }}
           />
         </div>
-      </div>
-
-      <div className="gpt3__footer-links_div">
-        {/* <p>contact@suckart.io</p>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p> */}
       </div>
     </div>
   </div>

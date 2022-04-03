@@ -50,7 +50,7 @@ const Navbar = () => {
                 fontWeight: "550",
               }}
             >
-              Buy an art piece
+              Buy now
             </a>
           </p>
           <p>
@@ -63,7 +63,7 @@ const Navbar = () => {
                 fontWeight: "550",
               }}
             >
-              The story
+              Roadmap
             </a>
           </p>
           <p>
@@ -115,10 +115,10 @@ const Navbar = () => {
                 <a href="#home">Home</a>
               </p>
               <p>
-                <a href="#wgpt3">Buy an art piece</a>
+                <a href="#wgpt3">Buy now</a>
               </p>
               <p>
-                <a href="#possibility">The story</a>
+                <a href="#possibility">Roadmap</a>
               </p>
               <p>
                 <a href="#features">Team</a>

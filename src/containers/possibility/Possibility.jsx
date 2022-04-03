@@ -29,7 +29,7 @@ const Possibility = () => (
         </p>
       </div>
       <a
-        href="https://discord.gg/rRUPQXMB"
+        href="https://discord.gg/YmnjudEmtr"
         className="gpt3__cta gpt3__cta__hover"
         style={{
           height: "50px",
